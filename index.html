@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Fermi Questions</title>
+        <meta
+            name="description"
+            content="Fermi Questions Online Practice Site for Science Olympiad"
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Eric Andrechek" />
+        <link rel="alternate" hreflang="en-us" href="https://andrechek.com" />
+
+        <link rel="stylesheet" href="styles.css" />
+        <script src="script.js"></script>
+        <script src="fermi.js"></script>
+
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
+        />
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+
+        <script
+            defer
+            src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"
+        ></script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=G-9M246KXNV1"
+        ></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+                dataLayer.push(arguments);
+            }
+            gtag("js", new Date());
+
+            gtag("config", "G-9M246KXNV1");
+        </script>
+    </head>
+    <body>
+        <div class="hero-body">
+            <div class="title">Fermi Questions Online Practice Test</div>
+            <div class="subtitle">
+                The <i>BEST</i> Open-Source Fermi Questions Practice Test for
+                Science Olympiad
+            </div>
+            <a
+                href="javascript:document.getElementById('howto').classList.toggle(`hidden`);"
+                ><span class="subtitle">How do Fermi Questions Work? </span
+                ><i class="fas fa-angle-down" aria-hidden="true"></i
+            ></a>
+            <div id="howto" class="content hidden">
+                A Fermi question is one where a seemingly
+                impossible-to-calculate answer is estimated. A famous example of
+                a Fermi question is "How many licks does it take to get to the
+                center of a tootsie roll pop?", where there is very little data
+                to use and assumptions must be made. Fermi questions are named
+                after Enrico Fermi, a physicist who is known for solving these
+                types of questions.
+                <br /><br />
+                In Science Olympiad, answers to Fermi questions are given in
+                powers of ten. For example, an estimated answer to the above
+                question of 400 licks is put in scientific notation as
+                4⋅10<sup>2</sup>, and the exponent on the ten is used as the
+                answer, yielding 2. If the estimate was 600 licks, or
+                6⋅10<sup>2</sup>, then the answer would be 3, rounding up.
+                <br /><br />
+                Points are usually given as follows:
+                <br /><br />
+                5 points for the correct power of ten
+                <br />
+                3 points for one away from the correct power of ten
+                <br />
+                1 point for two away from the correct power of ten
+                <br /><br />
+                For example, if the correct answer to the number of licks to the
+                center of a tootsie roll pop is 2, and the given answer is 2 ,
+                five points are awarded. If the given answer is 3 or 1 , 3
+                points are awarded, and if the given answer is 4 or 0, one point
+                is awarded. All other answers would receive 0 points.
+            </div>
+            <br />
+            <br />
+            <div class="content">
+                Still stuck? Have more questions as to how this works? Click
+                <a href="https://scioly.org/wiki/index.php/Fermi_Questions"
+                    >here</a
+                >.
+            </div>
+            <br />
+            <div class="field">
+                <label class="label" id="fermi-question"></label>
+                <div class="control">
+                    <input
+                        onkeypress="enter(event)"
+                        class="input"
+                        id="fermi-answer"
+                        type="number"
+                        pattern="[0-9]*"
+                    />
+                </div>
+            </div>
+            <button
+                onclick="check_answer()"
+                id="fermi-button"
+                class="button is-link"
+            >
+                Check Answer
+            </button>
+            <div id="result" class="content"></div>
+            <div id="score" class="content">
+                You currently have: <span id="points">0</span> points<br />
+                You are on question: <span id="qnumber">0</span>/<span
+                    id="tnumber"
+                ></span
+                ><br />
+            </div>
+            <div class="content">
+                Enjoy this site? Consider
+                <a href="donate">donating or sponsoring it</a>! Alternatively,
+                just give it a star on Github!
+
+                <br />
+
+                <div class="button-underneath" id="btn-star"></div>
+            </div>
+            <div class="content">
+                Want to add more questions and answers to this list? Notice an
+                incorrect answer? Have suggestions to make the website better?
+                <a href="https://github.com/EricAndrechek/FermiQuestions/issues"
+                    >Open an issue</a
+                >
+                to contribute.
+
+                <br />
+
+                <div class="button-underneath" id="btn-issue"></div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="columns">
+                <div class="column is-half-tablet margin-left">
+                    Website by: <strong>Eric Andrechek</strong>
+                    <br />
+                    <br />
+                    <p class="has-text-grey-light">
+                        Website content licensed
+                        <a
+                            rel="license"
+                            href="https://www.gnu.org/licenses/gpl-3.0.en.html"
+                            >GPL-3</a
+                        >
+                    </p>
+                </div>
+                <div class="column is-half-tablet margin-left">
+                    <span id="btn-follow"></span>
+                    <br />
+                    <span id="btn-sponsor"></span>
+                </div>
+                <div class="column"></div>
+            </div>
+        </footer>
+    </body>
+</html>

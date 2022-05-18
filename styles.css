@@ -1,0 +1,15 @@
+.hidden {
+    display: none;
+}
+
+.margin-left {
+    margin-left: 20px;
+}
+
+.button-underneath {
+    margin-top: 10px;
+}
+
+a {
+    isolation: isolate;
+}
