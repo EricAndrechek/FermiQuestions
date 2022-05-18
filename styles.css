@@ -1,3 +1,20 @@
+body {
+    width: 100%;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    overflow-x: -moz-hidden-unscrollable;
+    overflow-x: hidden;
+    overflow-x: -webkit-marquee;
+    min-height: 100vh;
+}
+
+.content-container {
+    min-height: 100vh; /* will cover the 100% of viewport */
+    overflow: hidden;
+    display: block;
+    position: relative;
+    padding-bottom: 0;
+}
+
 .hidden {
     display: none;
 }
