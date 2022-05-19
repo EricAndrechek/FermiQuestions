@@ -218,7 +218,6 @@ function setMinHeight() {
             null
         ).height.replace("px", "")
     );
-    console.log(screenHeight, footerHeight);
     document.getElementsByClassName("content-container")[0].style.minHeight =
         "" + (screenHeight - footerHeight) + "px";
 }
