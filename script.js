@@ -2,7 +2,7 @@ const options = {
     bottom: "32px", // default: '32px'
     right: "32px", // default: '32px'
     left: "unset", // default: 'unset'
-    time: "0.5s", // default: '0.3s'
+    time: "0s", // default: '0.3s'
     mixColor: "#fff", // default: '#fff'
     backgroundColor: "#fff", // default: '#fff'
     buttonColorDark: "#100f2c", // default: '#100f2c'
@@ -25,6 +25,7 @@ function ready(fn) {
 
 // page load
 ready(function () {
+    setMinHeight();
     // determine page darkmode
     darkmode = new Darkmode(options);
     darkmode.showWidget();
@@ -52,6 +53,14 @@ ready(function () {
     // set button colors
     update_github_buttons();
 });
+
+window.addEventListener(
+    "resize",
+    function (event) {
+        setMinHeight();
+    },
+    true
+);
 
 // github button style rendering:
 
@@ -199,4 +208,17 @@ function set_light_buttons() {
     document.getElementById("btn-issue").innerHTML = issue_light;
     document.getElementById("btn-follow").innerHTML = follow_light;
     document.getElementById("btn-sponsor").innerHTML = sponsor_light;
+}
+
+function setMinHeight() {
+    let screenHeight = window.innerHeight;
+    let footerHeight = parseFloat(
+        getComputedStyle(
+            document.getElementsByClassName("footer")[0],
+            null
+        ).height.replace("px", "")
+    );
+    console.log(screenHeight, footerHeight);
+    document.getElementsByClassName("content-container")[0].style.minHeight =
+        "" + (screenHeight - footerHeight) + "px";
 }

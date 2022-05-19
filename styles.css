@@ -15,6 +15,11 @@ body {
     padding-bottom: 0;
 }
 
+.darkmode-layer,
+.darkmode-toggle {
+    z-index: 500;
+}
+
 .hidden {
     display: none;
 }
@@ -29,4 +34,69 @@ body {
 
 a {
     isolation: isolate;
+    mix-blend-mode: normal;
+}
+
+.darkmode--activated a {
+    mix-blend-mode: difference;
+}
+
+.gh-btn {
+    mix-blend-mode: normal;
+}
+
+.darkmode--activated .gh-btn {
+    mix-blend-mode: difference;
+}
+
+#fermi-button {
+    mix-blend-mode: normal;
+}
+
+.darkmode--activated #fermi-button {
+    mix-blend-mode: difference;
+}
+
+.darkmode--activated .fermi-dropdown {
+    color: #b5b5b5;
+}
+
+input[type="number"]:focus {
+    border-color: #66afe9;
+    outline: 0;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+        0 0 8px rgba(102, 175, 233, 0.6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+        0 0 8px rgba(102, 175, 233, 0.6);
+    background-color: #fff;
+    color: #363636;
+}
+
+.darkmode--activated input[type="number"]:focus {
+    mix-blend-mode: difference;
+    background-color: #000;
+    color: #c9c9c9;
+}
+
+.darkmode--activated .has-text-success {
+    mix-blend-mode: difference;
+}
+
+.darkmode--activated .has-text-warning {
+    mix-blend-mode: difference;
+}
+
+.darkmode--activated .has-text-danger {
+    mix-blend-mode: difference;
+}
+
+#angle-down {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.125em;
+    fill: #485fc7;
+}
+
+footer.footer {
+    padding-bottom: 3rem;
 }
