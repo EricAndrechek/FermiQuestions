@@ -12,7 +12,11 @@ This project was designed to be a friendly and easy-to-use site for students to 
 
 ## Adding a Question
 
-To add a question, open the `question-bank.json` file and create a new object inside the `questions` object with a key to identify the source of the question(s) you are adding. Add multiple separate objects with different keys for each different source.
+To add a question, [open a new issue](https://github.com/EricAndrechek/FermiQuestions/issues/new/choose) and paste in your questions and answers, along with their sources. I will add this to the question-bank for you. 
+
+**If you'd like to help make my life easier** and ensure a faster addition to the question-bank, follow the steps below, or refer [to this walkthrough](https://github.com/EricAndrechek/FermiQuestions/issues/8#issuecomment-1199831374) if you are new to, or less familiar with Github.
+
+To start, open the `question-bank.json` file and create a new object inside the `questions` object with a key to identify the source of the question(s) you are adding. Add multiple separate objects with different keys for each different source.
 
 Next, add an object with the same key as the source to the `sources` object. Include the link to your source, the name you would like to be identified by, and the date you have sourced this information on.
 
