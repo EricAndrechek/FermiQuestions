@@ -1,11 +1,9 @@
 # Fermi Questions Online Practice Test
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Stars](https://img.shields.io/github/stars/EricAndrechek/FermiQuestions)](https://github.com/EricAndrechek/FermiQuestions/stargazers)
 [![Open Issues](https://img.shields.io/github/issues-raw/EricAndrechek/FermiQuestions)](https://github.com/EricAndrechek/FermiQuestions/issues?q=is%3Aopen+is%3Aissue)
 [![Closed Issues](https://img.shields.io/github/issues-closed-raw/EricAndrechek/FermiQuestions)](https://github.com/EricAndrechek/FermiQuestions/issues?q=is%3Aissue+is%3Aclosed)
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg)](#contributors)
 [![wakatime](https://wakatime.com/badge/github/EricAndrechek/FermiQuestions.svg)](https://wakatime.com/badge/github/EricAndrechek/FermiQuestions)
 [![PayPal](https://img.shields.io/badge/PayPal-Donate-green)](https://paypal.me/AndrechekEric)
 [![GitHub Sponsors](https://img.shields.io/badge/GitHub%20Sponsors-Donate-green)](https://github.com/sponsors/EricAndrechek)
