@@ -36,9 +36,9 @@
             function gtag() {
                 dataLayer.push(arguments);
             }
-            gtag("js", new Date());
+            gtag('js', new Date());
 
-            gtag("config", "G-9M246KXNV1");
+            gtag('config', 'G-9M246KXNV1');
         </script>
 
         <script
@@ -102,15 +102,18 @@
                     1 , 3 points are awarded, and if the given answer is 4 or 0,
                     one point is awarded. All other answers would receive 0
                     points.
+                    <br />
+                    <br />
+                    <div class="content">
+                        Still stuck? Have more questions as to how this works?
+                        Click
+                        <a
+                            href="https://scioly.org/wiki/index.php/Fermi_Questions"
+                            >here</a
+                        >.
+                    </div>
                 </div>
                 <br />
-                <br />
-                <div class="content">
-                    Still stuck? Have more questions as to how this works? Click
-                    <a href="https://scioly.org/wiki/index.php/Fermi_Questions"
-                        >here</a
-                    >.
-                </div>
                 <br />
                 <div class="field">
                     <label class="label" id="fermi-question"></label>
@@ -124,6 +127,14 @@
                         />
                     </div>
                 </div>
+                <button
+                    onclick="negate_answer()"
+                    title="Negate your answer"
+                    id="negate-button"
+                    class="button is-link"
+                >
+                    +/-
+                </button>
                 <button
                     onclick="check_answer()"
                     id="fermi-button"
@@ -139,30 +150,33 @@
                     ></span
                     ><br />
                 </div>
-                <div class="content">
-                    Enjoy this site? Read
-                    <a href="donate"
-                        >about it, or consider donating or sponsoring it</a
-                    >! Alternatively, just give it a star on Github!
+                <div id="fermi-source" class="content"></div>
+            </div>
+        </div>
 
-                    <br />
+        <div class="callouts hero-body">
+            <hr />
+            <div class="content">
+                Enjoy this site? Read
+                <a href="donate"
+                    >about it, or consider donating or sponsoring it</a
+                >! Alternatively, just give it a star on Github!
 
-                    <div class="button-underneath gh-btn" id="btn-star"></div>
-                </div>
-                <div class="content">
-                    Want to add more questions and answers to this list? Notice
-                    an incorrect answer? Have suggestions to make the website
-                    better?
-                    <a
-                        href="https://github.com/EricAndrechek/FermiQuestions/issues"
-                        >Open an issue</a
-                    >
-                    to contribute.
+                <br />
 
-                    <br />
+                <div class="button-underneath gh-btn" id="btn-star"></div>
+            </div>
+            <div class="content">
+                Want to add more questions and answers to this list? Notice an
+                incorrect answer? Have suggestions to make the website better?
+                <a href="https://github.com/EricAndrechek/FermiQuestions/issues"
+                    >Open an issue</a
+                >
+                to contribute.
 
-                    <div class="button-underneath gh-btn" id="btn-issue"></div>
-                </div>
+                <br />
+
+                <div class="button-underneath gh-btn" id="btn-issue"></div>
             </div>
         </div>
 

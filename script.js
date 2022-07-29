@@ -1,14 +1,14 @@
 const options = {
-    bottom: "32px", // default: '32px'
-    right: "32px", // default: '32px'
-    left: "unset", // default: 'unset'
-    time: "0s", // default: '0.3s'
-    mixColor: "#fff", // default: '#fff'
-    backgroundColor: "#fff", // default: '#fff'
-    buttonColorDark: "#100f2c", // default: '#100f2c'
-    buttonColorLight: "#fff", // default: '#fff'
+    bottom: '32px', // default: '32px'
+    right: '32px', // default: '32px'
+    left: 'unset', // default: 'unset'
+    time: '0s', // default: '0.3s'
+    mixColor: '#fff', // default: '#fff'
+    backgroundColor: '#fff', // default: '#fff'
+    buttonColorDark: '#100f2c', // default: '#100f2c'
+    buttonColorLight: '#fff', // default: '#fff'
     saveInCookies: true, // default: true,
-    label: "🌓", // default: ''
+    label: '🌓', // default: ''
     autoMatchOsTheme: true, // default: true
 };
 let darkmode;
@@ -16,16 +16,15 @@ let is_dark;
 
 // run code after page has loaded
 function ready(fn) {
-    if (document.readyState != "loading") {
+    if (document.readyState != 'loading') {
         fn();
     } else {
-        document.addEventListener("DOMContentLoaded", fn);
+        document.addEventListener('DOMContentLoaded', fn);
     }
 }
 
 // page load
 ready(function () {
-    setMinHeight();
     // determine page darkmode
     darkmode = new Darkmode(options);
     darkmode.showWidget();
@@ -36,7 +35,9 @@ ready(function () {
     // Callback function to execute when mutations are observed
     const callback = function (mutationsList, observer) {
         for (const mutation of mutationsList) {
-            if (mutation.type === "attributes") {
+            // set min height when dom shifts
+            setMinHeight();
+            if (mutation.type === 'attributes') {
                 if (is_dark !== darkmode.isActivated()) {
                     update_github_buttons();
                 }
@@ -52,15 +53,12 @@ ready(function () {
 
     // set button colors
     update_github_buttons();
+
+    // set min height
+    setMinHeight();
 });
 
-window.addEventListener(
-    "resize",
-    function (event) {
-        setMinHeight();
-    },
-    true
-);
+window.addEventListener('resize', setMinHeight);
 
 // github button style rendering:
 
@@ -166,10 +164,10 @@ const sponsor_dark = `
 
 // hacky way to re-run the github button script when the theme changes
 function update_github_buttons() {
-    let btn_star = document.getElementById("btn-star");
-    let btn_issue = document.getElementById("btn-issue");
-    let btn_follow = document.getElementById("btn-follow");
-    let btn_sponsor = document.getElementById("btn-sponsor");
+    let btn_star = document.getElementById('btn-star');
+    let btn_issue = document.getElementById('btn-issue');
+    let btn_follow = document.getElementById('btn-follow');
+    let btn_sponsor = document.getElementById('btn-sponsor');
     let buttons = [btn_star, btn_issue, btn_follow, btn_sponsor];
     delete_button_div_contents(buttons);
 
@@ -181,43 +179,79 @@ function update_github_buttons() {
     }
 
     let unique = Date.now();
-    let scriptFile = document.createElement("script");
-    scriptFile.type = "text/javascript";
+    let scriptFile = document.createElement('script');
+    scriptFile.type = 'text/javascript';
     scriptFile.async = true;
-    scriptFile.src = "https://buttons.github.io/buttons.js?unique=" + unique;
-    let s = document.getElementsByTagName("script")[0];
+    scriptFile.src = 'https://buttons.github.io/buttons.js?unique=' + unique;
+    let s = document.getElementsByTagName('script')[0];
     s.parentNode.insertBefore(scriptFile, s);
 }
 
 function delete_button_div_contents(buttons) {
     for (let i = 0; i < buttons.length; i++) {
         let button = buttons[i];
-        button.innerHTML = "";
+        button.innerHTML = '';
     }
 }
 
 function set_dark_buttons() {
-    document.getElementById("btn-star").innerHTML = star_dark;
-    document.getElementById("btn-issue").innerHTML = issue_dark;
-    document.getElementById("btn-follow").innerHTML = follow_dark;
-    document.getElementById("btn-sponsor").innerHTML = sponsor_dark;
+    document.getElementById('btn-star').innerHTML = star_dark;
+    document.getElementById('btn-issue').innerHTML = issue_dark;
+    document.getElementById('btn-follow').innerHTML = follow_dark;
+    document.getElementById('btn-sponsor').innerHTML = sponsor_dark;
 }
 
 function set_light_buttons() {
-    document.getElementById("btn-star").innerHTML = star_light;
-    document.getElementById("btn-issue").innerHTML = issue_light;
-    document.getElementById("btn-follow").innerHTML = follow_light;
-    document.getElementById("btn-sponsor").innerHTML = sponsor_light;
+    document.getElementById('btn-star').innerHTML = star_light;
+    document.getElementById('btn-issue').innerHTML = issue_light;
+    document.getElementById('btn-follow').innerHTML = follow_light;
+    document.getElementById('btn-sponsor').innerHTML = sponsor_light;
 }
 
 function setMinHeight() {
     let screenHeight = window.innerHeight;
+
     let footerHeight = parseFloat(
         getComputedStyle(
-            document.getElementsByClassName("footer")[0],
+            document.getElementsByClassName('footer')[0],
             null
-        ).height.replace("px", "")
+        ).height.replace('px', '')
     );
-    document.getElementsByClassName("content-container")[0].style.minHeight =
-        "" + (screenHeight - footerHeight) + "px";
+    let calloutsHeight = parseFloat(
+        getComputedStyle(
+            document.getElementsByClassName('callouts')[0],
+            null
+        ).height.replace('px', '')
+    );
+
+    let question_and_source_height;
+    try {
+        question_and_source_height =
+            parseFloat(
+                getComputedStyle(
+                    document.getElementById('fermi-question'),
+                    null
+                ).height.replace('px', '')
+            ) +
+            parseFloat(
+                getComputedStyle(
+                    document.getElementById('fermi-source'),
+                    null
+                ).height.replace('px', '')
+            );
+    } catch (e) {
+        question_and_source_height = -1;
+    }
+
+    // if the question JSON hasn't loaded yet, include the space it will need to take in the calculations
+    if (question_and_source_height == 0) {
+        screenHeight -= 48;
+    }
+
+    let minHeight = screenHeight - (footerHeight + calloutsHeight);
+
+    document.getElementsByClassName('content-container')[0].style.minHeight =
+        '' + minHeight + 'px';
+
+    return minHeight;
 }

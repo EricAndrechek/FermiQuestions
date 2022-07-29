@@ -1,6 +1,10 @@
+html {
+    overflow-y: auto !important;
+}
+
 body {
     width: 100%;
-    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
     overflow-x: -moz-hidden-unscrollable;
     overflow-x: hidden;
     overflow-x: -webkit-marquee;
@@ -49,11 +53,11 @@ a {
     mix-blend-mode: difference;
 }
 
-#fermi-button {
+.button {
     mix-blend-mode: normal;
 }
 
-.darkmode--activated #fermi-button {
+.darkmode--activated .button {
     mix-blend-mode: difference;
 }
 
@@ -61,7 +65,7 @@ a {
     color: #b5b5b5;
 }
 
-input[type="number"]:focus {
+input[type='number']:focus {
     border-color: #66afe9;
     outline: 0;
     -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
@@ -72,7 +76,7 @@ input[type="number"]:focus {
     color: #363636;
 }
 
-.darkmode--activated input[type="number"]:focus {
+.darkmode--activated input[type='number']:focus {
     mix-blend-mode: difference;
     background-color: #000;
     color: #c9c9c9;
@@ -90,11 +94,23 @@ input[type="number"]:focus {
     mix-blend-mode: difference;
 }
 
+#result {
+    padding-top: 5px;
+}
+
 #angle-down {
     width: 1em;
     height: 1em;
     vertical-align: -0.125em;
     fill: #485fc7;
+}
+
+.callouts.hero-body {
+    padding-top: 0;
+}
+
+.content-container .hero-body {
+    padding-bottom: 1.5rem;
 }
 
 footer.footer {
