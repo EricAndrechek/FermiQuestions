@@ -24,6 +24,15 @@
         "bug",
         "content"
       ]
+    },
+    {
+      "login": "Haadi-Khan",
+      "name": "Haadi-Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44217975?v=4",
+      "profile": "https://github.com/Haadi-Khan",
+      "contributions": [
+        "ideas"
+      ]
     }
   ],
   "contributorsPerLine": 7,
