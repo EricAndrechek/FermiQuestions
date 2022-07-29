@@ -1,25 +1,35 @@
 {
-    "files": [
-        "README.md"
-    ],
-    "imageSize": 100,
-    "commit": false,
-    "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors)",
-    "contributors": [
-        {
-            "login": "EricAndrechek",
-            "name": "Eric Andrechek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/35144594?v=4",
-            "profile": "https://andrechek.com",
-            "contributions": [
-                "code"
-            ]
-        }
-    ],
-    "contributorsPerLine": 7,
-    "projectName": "FermiQuestions",
-    "projectOwner": "EricAndrechek",
-    "repoType": "github",
-    "repoHost": "https://github.com",
-    "skipCi": true
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "badgeTemplate": "[![All Contributors](https://img.shields.io/badge/all_contributors-<%= contributors.length %>-orange.svg)](#contributors)",
+  "contributors": [
+    {
+      "login": "EricAndrechek",
+      "name": "Eric Andrechek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35144594?v=4",
+      "profile": "https://andrechek.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "IOnlyShoot3s",
+      "name": "IOnlyShoot3s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109195738?v=4",
+      "profile": "https://github.com/IOnlyShoot3s",
+      "contributions": [
+        "bug",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "FermiQuestions",
+  "projectOwner": "EricAndrechek",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
