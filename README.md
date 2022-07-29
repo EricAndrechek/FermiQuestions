@@ -1,4 +1,7 @@
 # Fermi Questions Online Practice Test
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
 [![Stars](https://img.shields.io/github/stars/EricAndrechek/FermiQuestions)](https://github.com/EricAndrechek/FermiQuestions/stargazers)
 [![Open Issues](https://img.shields.io/github/issues-raw/EricAndrechek/FermiQuestions)](https://github.com/EricAndrechek/FermiQuestions/issues?q=is%3Aopen+is%3Aissue)
@@ -52,3 +55,17 @@ If you want to be extra helpful, include the changes you are making to the chang
 -   February 10, 2019 - First release of website on [andrechek.com/projects/fermi](https://andrechek.com/projects/fermi) with closed source code and question bank.
 
 ## Contributors
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+<table>
+  <tr>
+    <td align="center"><a href="https://andrechek.com"><img src="https://avatars.githubusercontent.com/u/35144594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Andrechek</b></sub></a><br /><a href="https://github.com/EricAndrechek/FermiQuestions/commits?author=EricAndrechek" title="Code">💻</a></td>
+  </tr>
+</table>
+
+<!-- markdownlint-restore -->
+<!-- prettier-ignore-end -->
+
+<!-- ALL-CONTRIBUTORS-LIST:END -->
