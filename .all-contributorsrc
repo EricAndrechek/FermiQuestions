@@ -1,43 +1,45 @@
 {
-    "files": [
-        "README.md"
-    ],
-    "imageSize": 100,
-    "commit": false,
-    "contributors": [
-        {
-            "login": "EricAndrechek",
-            "name": "Eric Andrechek",
-            "avatar_url": "https://avatars.githubusercontent.com/u/35144594?v=4",
-            "profile": "https://andrechek.com",
-            "contributions": [
-                "code"
-            ]
-        },
-        {
-            "login": "IOnlyShoot3s",
-            "name": "IOnlyShoot3s",
-            "avatar_url": "https://avatars.githubusercontent.com/u/109195738?v=4",
-            "profile": "https://github.com/IOnlyShoot3s",
-            "contributions": [
-                "bug",
-                "content"
-            ]
-        },
-        {
-            "login": "Haadi-Khan",
-            "name": "Haadi-Khan",
-            "avatar_url": "https://avatars.githubusercontent.com/u/44217975?v=4",
-            "profile": "https://github.com/Haadi-Khan",
-            "contributions": [
-                "ideas"
-            ]
-        }
-    ],
-    "contributorsPerLine": 7,
-    "projectName": "FermiQuestions",
-    "projectOwner": "EricAndrechek",
-    "repoType": "github",
-    "repoHost": "https://github.com",
-    "skipCi": true
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "EricAndrechek",
+      "name": "Eric Andrechek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35144594?v=4",
+      "profile": "https://andrechek.com",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "IOnlyShoot3s",
+      "name": "IOnlyShoot3s",
+      "avatar_url": "https://avatars.githubusercontent.com/u/109195738?v=4",
+      "profile": "https://github.com/IOnlyShoot3s",
+      "contributions": [
+        "bug",
+        "content"
+      ]
+    },
+    {
+      "login": "Haadi-Khan",
+      "name": "Haadi-Khan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44217975?v=4",
+      "profile": "https://github.com/Haadi-Khan",
+      "contributions": [
+        "ideas",
+        "bug",
+        "content"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "FermiQuestions",
+  "projectOwner": "EricAndrechek",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
 }
