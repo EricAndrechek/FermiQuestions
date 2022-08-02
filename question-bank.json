@@ -1,35 +1,6 @@
 {
     "questions": {
         "og": {
-            "How many microseconds would it take to count to a trillion, if you count 100 numbers in 1 minute?": 18,
-            "How many gallons of milk are produced in the United States each year?": 10,
-            "How many hours of sleep does an average person get in a life time in the U.S.?": 5,
-            "What is the world demand for oil in gallons each year?": 9,
-            "How many millimeters are there in one (1) degree of latitude at 40 degrees North latitude?": 8,
-            "125! = ": 209,
-            "How much would $1,000 be worth if it was compounded annually at an interest of 8% for 50 years?": 4,
-            "How many people in the U.S. have the five most common last names in the U.S.?": 7,
-            "What is the maximum depth in meters of the Gulf of Mexico?": 3,
-            "If the national debt were represented with a stack of $1 bills, how far would the stack reach in miles?": 6,
-            "18.7 billion texts are sent each day around the world. How many of these texts are sent each day from the U.S.?": 9,
-            "How many milliliters per year of bottled water are purchased/drank per person in the U.S.?": 5,
-            "How many golf balls can fit in a school bus?": 5,
-            "What is the total length of all hairs shed by a cat in a month in cm?": 6,
-            "One suggestion for putting satellites into orbit cheaply without using rockets is to build a tower 300 km high containing an elevator. One would put the payload in the elevator, lift it to the top, and just step out into orbit. Ignoring other problems (such as structural strain on the tower), estimate the weight of such a tower if its base were the size of Washington DC and it were made of steel. (Steel is about 5 times as dense as water, which has a density of 1 gm/cm<sup>3</sup>.)": 15,
-            "What is the total number of millimeters that runners run who cross a finish line in a marathon?": 12,
-            "How many revolutions does a car tire make in an hour traveling 100 kilometers per hour?": 5,
-            "How many platelets are in each liter of human blood?": 11,
-            "How many red blood cells does the U.S. Congress have?": 16,
-            "2<sup>24</sup> / 3<sup>24</sup> =": -4,
-            "8<sup>88</sup> =": 79,
-            "How many paper bags are made from 14 million trees?": 10,
-            "How many lawyers are there in the United States?": 6,
-            "How much carbon dioxide in grams is emitted annually into the atmosphere by all U.S. power plants?": 15,
-            "Intel factories produce enough transistors per year for each man, woman, and child on earth to have 20 million. How many transistors are being produced per year?": 17,
-            "How many milliliters of water are in the Great Lakes": 18,
-            "What is the number of deer killed by hunters in North Carolina last season divided by the human population of North Carolina?": -2,
-            "What are odds of having a deer-vehicle collision in North Carolina in the next 12 months?": -3,
-            "How many grams of feces is produced annually by hogs in North Carolina?": 13,
             "What is the area of Madagascar, in square angstroms?": 32,
             "How tall, in feet, is the 22nd tallest building in the world?": 3,
             "What is 7<sup>43</sup>?": 36,
@@ -85,7 +56,7 @@
             "How many tons one cubic cm of a neutron star would be?": 8,
             "The speed of light in m/s.": 8,
             "Number of galaxies in the universe.": 11,
-            "Pounds of skin shed by a person in his or her lifetime.": 1,
+            "Pounds of skin shed by a person in his or her lifetime.": 2,
             "How many seconds would it take a heavy object to sink into the deepest part of the ocean?": 3,
             "The number of neutrinos that are produced from the sun that pass through your body while you read this sentence.": 15,
             "Number of miles the universe expands in one hour.": 9,
@@ -196,6 +167,98 @@
             "How many hydrogen atoms are present in 1 mg of aspartame (C<sub>14</sub>H<sub>18</sub>N<sub>2</sub>O<sub>5</sub>), the artificial sweetener?": 19,
             "What is the mass, in grams, of all electrons within a single copper atom?": -26
         },
+        "NC State Example": {
+            "How many microseconds would it take to count to a trillion, if you count 100 numbers in 1 minute?": 18,
+            "How many gallons of milk is produced in the United States each year?": 10,
+            "How many hours of sleep does an average person get in a life time in the U.S.?": 5,
+            "What is the world demand for oil in gallons each year?": 9,
+            "How many millimeters are there in one (1) degree of latitude at 40 degrees North latitude?": 8,
+            "125! = ": 209,
+            "How much would $1,000 be worth if it was compounded annually at an interest of 8% for 50 years?": 4,
+            "How many people in the U.S. have the five most common last names in the U.S.?": 7,
+            "What is the maximum depth in meters of the Gulf of Mexico?": 3,
+            "If the national debt were represented with a stack of $1 bills, how far would the stack reach in miles?": 6,
+            "18.7 billion texts are sent each day around the world. How many of these texts are sent each day from the U.S.?": 9,
+            "How many milliliters per year of bottled water are purchased/drank per person in the U.S.?": 5,
+            "How many golf balls can fit in a school bus?": 5,
+            "What is the total length of all hairs shed by a cat in a month in cm?": 6,
+            "One suggestion for putting satellites into orbit cheaply without using rockets is to build a tower 300 km high containing an elevator. One would put the payload in the elevator, lift it to the top, and just step out into orbit. Ignoring other problems (such as structural strain on the tower), estimate the weight of such a tower if its base were the size of Washington DC and it were made of steel. (Steel is about 5 times as dense as water, which has a density of 1 gm/cm<sup>3</sup>.)": 15,
+            "What is the total number of millimeters that runners run who cross a finish line in a marathon?": 12,
+            "How many revolutions does a car tire make in an hour traveling 100 kilometers per hour?": 5,
+            "How many platelets are in each liter of human blood?": 11,
+            "How many red blood cells does the U.S. Congress have?": 16,
+            "2<sup>24</sup> / 3<sup>24</sup> =": -4,
+            "8<sup>88</sup> =": 79,
+            "How many paper bags are made from 14 million trees?": 10,
+            "How many lawyers are there in the United States?": 6,
+            "How much carbon dioxide in grams is emitted annually into the atmosphere by all U.S. power plants?": 15,
+            "Intel factories produce enough transistors per year for each man, woman, and child on earth to have 20 million. How many transistors are being produced per year?": 17,
+            "How many milliliters of water are in the Great Lakes": 18,
+            "What is the number of deer killed by hunters in North Carolina last season divided by the human population of North Carolina?": -2,
+            "What are odds of having a deer-vehicle collision in North Carolina in the next 12 months?": -3,
+            "How many grams of feces is produced annually by hogs in North Carolina?": 13
+        },
+        "NC State": {
+            "How many texts are sent every hour of every day worldwide, not including app-to-app messaging?": 9,
+            "How many school buses to equal the weight of the sun ?": 26,
+            "What is the acceleration caused by Earth's gravity divided by free fall acceleration of the Sun?": -2,
+            "How many red blood cells are needed to blanket the surface area of an M&M?": 7,
+            "How many playing cards are needed toblanket the surface area of a doubles tennis court?": 4,
+            "What is 137 to the power of 56?": 119,
+            "How many electrons are there in our Sun?": 57,
+            "Rodanthe, NC is the easternmost point of NC and Cape Mendocino is the westernmost point in California. How many nanometers between the two?": 15,
+            "How many toothpicks could be made from a telephone pole?": 6,
+            "You're over the Mariana trench in a boat with a cannonball in your hand. You drop it overboard, how long does the cannonball take to reach the bottom in seconds?": 3,
+            "How many minutes will be spent texting (solely texting) in one year by high school students in the United States?": 11,
+            "How many new passenger cars are sold each year in the USA": 6,
+            "How many aluminum drink cans are used each year in the world?": 11,
+            "The mass of a typical aluminum can is about 0.018 kg. What is the total mass of aluminum in a year's consumption from these cans.": 9,
+            "Silas Marner saved his pennies until they covered the 48 contiguous states of the United States. How many pennies did he have?": 16,
+            "How many new telephone numbers became available when the three-digit area code system was installed?": 12,
+            "During the time interval of a blink, how many km has light travelled in a vacuum?": 12,
+            "A typical family Bible consists of 1,000 pages with an average of 5,000 characters and spaces per page. If it takes 100 Fe atoms to define a character, how many Bibles can fit on the head of a pin?": 4,
+            "What is the volume of the Moon in cubic meters?": 19,
+            "How many hours elapse from one full moon to the next?": 3,
+            "How far, in km, does light travel during the time it takes between full moons?": 12,
+            "Relative to the sun, what is the Earth's orbital velocity in miles per hour?": 5,
+            "How many kilometers would theEarth have travelled during the time it takes between full moons?": 8,
+            "Under favorable conditions, the bacterium SO (short for Scientificus Olympiadum) will reproduce in 6 minutes. Assuming they don't die, how many SO bacteria can claim the same ancestor after 1 day?": 433,
+            "The SO bacterium is rod-like with dimensions of 4x104 cm, 104 cm, and 0.5x104 cm. What is the weight, in grams, of an SO bacterium?": -12,
+            "How many SO bacteria would be able to be packed into a ping pong ball?": 13,
+            "The SO bacterium is special because it has a tiny brain which is about the same percentage of its total weight as an adult human's. Estimate the weight, in grams, of the brain of an SO bacterium": -14,
+            "The SO bacteria need a living space of about 30x104 cm in all directions to thrive. How many of these thriving bacteria might be found in a gram of pond water?": 7,
+            "If the SO bacteria don't die, how many hours will it take for two to reproduce and make a volume equal to that of the earth?": 0,
+            "How many times could a basketball player bounce a ball during her teenage years if she didn't stop to eat, sleep, etc.?": 8
+        },
+        "Yale YPO": {
+            "If all the rain that falls during a typical summer rainstorm were gathered into a single drop, what would the drop’s radius be?": 3,
+            "When a large ship (oil tanker / cargo ship / aircraft carrier / etc.) is placed into the ocean, how much does the global sea level rise?": -10,
+            "Archimedes of Syracuse was a philosopher, inventor, and scientist who lived and died in Sicily more than 2,000 years ago. Assuming that the earth’s atmosphere has been thoroughly mixed since then, how many molecules from his final breath are in your lungs right now?":1,
+            "How many airline passengers are in the air over the United States right now?": 6,
+            "What is the kinetic energy stored in continental drift?": 4,
+            "What is the kinetic energy stored in all the wind in the Earth’s atmosphere? The specific gravity of air is 1/1000 th that of water. You should only consider the atmosphere’s motion relative to the surface of the Earth, and not the overall rotation of the planet.": 20,
+            "Sunlight exerts a force of 1 micronewton per square meter. Ignoring friction, how long would it take a car powered by this force to go from 0 mph to 60 mph (or, equivalently, from 0 kph to 100 kph)?": 11,
+            "How many babies are born in New Haven on an average day?": 1,
+            "How many trees are there in Connecticut?": 7,
+            "Despite what you may have learned in chemistry class, any pair of atoms will stick to each other to form a diatomic molecule. Given this fact, how many species of diatomic molecules are there?": 2,
+            "You have a one-­‐liter bottle of water. What is the area you could cover with this water if it were spread to be one molecule thick?": 7,
+            "How long a line can an average pencil make?": 3,
+            "If all the soda that is drunk in the United States during a typical day were gathered into a single drop, what would the drop’s radius be?": 2,
+            "How many generations back do you have to go until your total number of ancestors is equal to the world population?": 1,
+            "If electric energy costs $0.1 per kilowatt hour, and is delivered to your home at a voltage of 120 Volts, what is the cost of one electron? ": -24
+        },
+        "NJ AAPT": {
+            "How many piano tuners are there in Chicago?": 2,
+            "What is pi to the power of 9?": 4,
+            "How many pounds of rice were consumed by people living in the U.S. last year?": 10,
+            "How many board game dice does it take to equal the mass of the average human?": 4,
+            "What number of tennis balls would you have to lay on the surface area of an Olympic-sized pool in order to fully cover it?": 5,
+            "How much trash (in pounds) does the average family produce in a year?": 3,
+            "What volume of air (in Liters) do you breathe in one day?": 3,
+            "How many hairs are on the average human head (that actually has hair!)": 5,
+            "If we could brew coffee in swimming pools, how many pools would we need to satisfy the need in the U.S. on a given day?": 2,
+            "How many pennies would it take to make a stack the height of the Empire State Building?": 5
+        },
         "Cornell": {
             "How many centimeters are in 40,000 miles?": 10,
             "What is the probability that you will end up with the exact same card sequence as you started after shuffling it?": -68
@@ -216,13 +279,36 @@
             "How many carbon atoms would it take in order to create a single-file line of atoms around the Earth?": 17,
             "What is the force required to break a covalent bond, in Newtons?": -9,
             "How much mass, in kg, is the Sun losing every second?": 9
-        }
+        },
+		"Haadi": {
+			"How many grams of cheese does Wisconsin produce every day?": 9
+		}
     },
     "sources": {
         "og": {
             "link": "https://github.com/EricAndrechek/FermiQuestions#changes",
             "author": "Eric Andrechek",
             "date": "February 10, 2019"
+        },
+        "NC State Example": {
+            "link": "https://ncscienceolympiad.ncsu.edu/wp-content/uploads/2018/08/NC-FERMI-C.pdf",
+            "author": "Haadi Khan",
+            "date": "July 29, 2022"
+        },
+        "NC State": {
+            "link": "https://ncscienceolympiad.ncsu.edu/wp-content/uploads/2018/08/2018-Fermi-Questions-State-C.pdf",
+            "author": "Eric Andrechek",
+            "date": "February 10, 2019"
+        },
+        "Yale YPO": {
+            "link": "https://ypo.yale.edu/sites/default/files/files/FermiQuiz_2012_and_Solutions.pdf",
+            "author": "Haadi Khan",
+            "date": "July 30, 2022"
+        },
+        "NJ AAPT": {
+            "link": "https://www.njaapt.org/resources/Documents/Physics%20Olympics%20--%20All/Fermi%20Questions%20-%20Worksheet%20and%20Answers.pdf",
+            "author": "Haadi Khan",
+            "date": "July 30, 2022"
         },
         "Cornell": {
             "link": "https://drive.google.com/drive/folders/1pRNsglPDA-bUggK5hN7FBX4ChIo2r1Pd",
@@ -238,6 +324,11 @@
             "link": "https://scioly.org/tests/files/fermiquestions_2018_c_captainstryouts-sevenlakes_test.pdf",
             "author": "IOnlyShoot3s",
             "date": "July 29, 2022"
+        },
+        "Haadi": {
+            "link": "https://github.com/Haadi-Khan",
+            "author": "Haadi Khan",
+            "date": "August 1, 2022"
         }
     }
 }
