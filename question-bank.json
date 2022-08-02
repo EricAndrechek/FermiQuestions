@@ -280,9 +280,26 @@
             "What is the force required to break a covalent bond, in Newtons?": -9,
             "How much mass, in kg, is the Sun losing every second?": 9
         },
-		"Haadi": {
-			"How many grams of cheese does Wisconsin produce every day?": 9
-		}
+        "Haadi": {
+            "How many grams of cheese does Wisconsin produce every day?": 9
+        },
+        "UMich": {
+            "As of 2017, how many minutes of movie has Steven Spielberg directed?": 3,
+            "Assume that in a game of Rock-Paper-Scissors, the hands played by both participants are chosen completely randomly with an equal chance of choosing Rock, Paper, or Scissors. If the two choose the same hand, they do another round. What is the probability the two play the same hand exactly 72 times before finally declaring a winner?": -35,
+            "Surface area of an iPhone in hectares": -6,
+            "26<sup>9</sup>": 13,
+            "Mass of a mole(unit) of moles(animal) in ounces": 24,
+            "How mnay credit cards would fit in the stratosphere": 25,
+            "A sample of pure iridium weighs as much as a bread loaf. How many atom of iridium are in this sample?": 24,
+            "Electron diameter in light years": -16,
+            "How many individual fries does McDonald's sell yearly": 12,
+            "How many exa-newtons of force does the Earth’s gravitational field apply on a single grain of rice located on the surface of the Moon?": -25,
+            "How many times does the string “cell” appear in Campbell’s Biology, 9th edition? (Note: any word that contains “cell”, such as “intracellular” or “cellulose”, would count)": 3,
+            "How many standard AAA batteries would it take to equal the total installed wind energy capacity of the world?": 5,
+            "How many cells are in the typical human body?": 13,
+            "If every person who ever lived crowded together in one spot, how much area would be covered, in terms of the area of Rhode Island?": 2,
+            "How many pennies would it take to create a walkable bridge from Boston, MA to Portugal, assuming that pennies sink (and that you therefore must stack pennies from the bottom of the ocean floor)": 16
+        }
     },
     "sources": {
         "og": {
@@ -329,6 +346,11 @@
             "link": "https://github.com/Haadi-Khan",
             "author": "Haadi Khan",
             "date": "August 1, 2022"
+        },
+        "UMich": {
+            "link": "https://scioly.org/tests/files/fermiquestions_2018_c_umich_key.pdf",
+            "author": "Haadi Khan",
+            "date": "August 2, 2022"
         }
     }
 }
