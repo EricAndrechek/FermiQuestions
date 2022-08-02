@@ -50,6 +50,8 @@ If you want to be extra helpful, include the changes you are making to the chang
 
 ## Changes
 
+-   August 1, 2022 - Added additional questions, fixed incorrect answers, and found additional sources by @Haadi-Khan
+-   August 1, 2022 - Added additional questions from @IOnlyShoot3s 
 -   July 29, 2022 - Added question source information as suggested by @Haadi-Khan
 -   July 13, 2022 - Fixed incorrect answer pointed out by @IOnlyShoot3s
 -   May 19, 2022 - Migrated from [andrechek.com](https://andrechek.com) to open source codebase and questions all hosted on Github.
