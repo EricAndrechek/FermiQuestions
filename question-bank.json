@@ -195,11 +195,11 @@
             "The diameter of a chromium atom is about 2.4 Å (10 Å = 1nm). How many chromium atoms would have to be lined up to span 1.0 cm?": 7,
             "How many hydrogen atoms are present in 1 mg of aspartame (C<sub>14</sub>H<sub>18</sub>N<sub>2</sub>O<sub>5</sub>), the artificial sweetener?": 19,
             "What is the mass, in grams, of all electrons within a single copper atom?": -26
-        }
+        },
         "Cornell": {
             "How many centimeters are in 40,000 miles?": 10,
-            "What is the probability that you will end up with the exact same card sequence as you started after shuffling it?": -68,
-            }
+            "What is the probability that you will end up with the exact same card sequence as you started after shuffling it?": -68
+        },
         "BirdSO": {
             "Calculate 10<sup>100</sup? - 10<sup>99</sup> - 10<sup>98</sup> - ... - 10<sup>1</sup>.": 100,
             "How many bird species are there in North America?": 3,
@@ -207,16 +207,15 @@
             "Compute 2<sup>2<sup>2<sup>2<sup>2</sup></sup></sup></sup>": 19728,
             "How many fish are there, on average, per meter cubed of water in the Earth's ocean?": -6,
             "What is the worldwide coffee bean production in picograms?": 25,
-            "Norway is the 118th most populous country in the world. What is the population of Norway?": 7,
-            }
+            "Norway is the 118th most populous country in the world. What is the population of Norway?": 7
+        },
         "Seven Lakes": {
             "What is 75<sup>56</sup>?": 105,
             "How many different ways are there to arrange 8 objects in a circle?": 4,
             "How many times more massive is the Sun than the Moon?": 7,
             "How many carbon atoms would it take in order to create a single-file line of atoms around the Earth?": 17,
-            "What is the force required to break a covalent bond, in Newtons?": -9
+            "What is the force required to break a covalent bond, in Newtons?": -9,
             "How much mass, in kg, is the Sun losing every second?": 9
-            }
         }
     },
     "sources": {
