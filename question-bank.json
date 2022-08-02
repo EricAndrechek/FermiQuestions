@@ -2,7 +2,7 @@
     "questions": {
         "og": {
             "How many microseconds would it take to count to a trillion, if you count 100 numbers in 1 minute?": 18,
-            "How many gallons of milk is produced in the United States each year?": 10,
+            "How many gallons of milk are produced in the United States each year?": 10,
             "How many hours of sleep does an average person get in a life time in the U.S.?": 5,
             "What is the world demand for oil in gallons each year?": 9,
             "How many millimeters are there in one (1) degree of latitude at 40 degrees North latitude?": 8,
@@ -195,6 +195,27 @@
             "The diameter of a chromium atom is about 2.4 Å (10 Å = 1nm). How many chromium atoms would have to be lined up to span 1.0 cm?": 7,
             "How many hydrogen atoms are present in 1 mg of aspartame (C<sub>14</sub>H<sub>18</sub>N<sub>2</sub>O<sub>5</sub>), the artificial sweetener?": 19,
             "What is the mass, in grams, of all electrons within a single copper atom?": -26
+        },
+        "Cornell": {
+            "How many centimeters are in 40,000 miles?": 10,
+            "What is the probability that you will end up with the exact same card sequence as you started after shuffling it?": -68
+        },
+        "BirdSO": {
+            "Calculate 10<sup>100</sup? - 10<sup>99</sup> - 10<sup>98</sup> - ... - 10<sup>1</sup>.": 100,
+            "How many bird species are there in North America?": 3,
+            "How many molecules of ATP are used in an average human in one day?": 26,
+            "Compute 2<sup>2<sup>2<sup>2<sup>2</sup></sup></sup></sup>": 19728,
+            "How many fish are there, on average, per meter cubed of water in the Earth's ocean?": -6,
+            "What is the worldwide coffee bean production in picograms?": 25,
+            "Norway is the 118th most populous country in the world. What is the population of Norway?": 7
+        },
+        "Seven Lakes": {
+            "What is 75<sup>56</sup>?": 105,
+            "How many different ways are there to arrange 8 objects in a circle?": 4,
+            "How many times more massive is the Sun than the Moon?": 7,
+            "How many carbon atoms would it take in order to create a single-file line of atoms around the Earth?": 17,
+            "What is the force required to break a covalent bond, in Newtons?": -9,
+            "How much mass, in kg, is the Sun losing every second?": 9
         }
     },
     "sources": {
@@ -202,6 +223,21 @@
             "link": "https://github.com/EricAndrechek/FermiQuestions#changes",
             "author": "Eric Andrechek",
             "date": "February 10, 2019"
+        },
+        "Cornell": {
+            "link": "https://drive.google.com/drive/folders/1pRNsglPDA-bUggK5hN7FBX4ChIo2r1Pd",
+            "author": "IOnlyShoot3s",
+            "date": "July 29, 2022"
+        },
+        "BirdSO": {
+            "link": "https://drive.google.com/drive/folders/14B7kBvOodk0_7ulRpUww1SaqxBrfjrnx",
+            "author": "IOnlyShoot3s",
+            "date": "July 29, 2022"
+        },
+        "Seven Lakes": {
+            "link": "https://scioly.org/tests/files/fermiquestions_2018_c_captainstryouts-sevenlakes_test.pdf",
+            "author": "IOnlyShoot3s",
+            "date": "July 29, 2022"
         }
     }
 }
