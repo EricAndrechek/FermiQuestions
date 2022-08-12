@@ -264,7 +264,7 @@
             "What is the probability that you will end up with the exact same card sequence as you started after shuffling it?": -68
         },
         "BirdSO": {
-            "Calculate 10<sup>100</sup? - 10<sup>99</sup> - 10<sup>98</sup> - ... - 10<sup>1</sup>.": 100,
+            "Calculate 10<sup>100</sup> - 10<sup>99</sup> - 10<sup>98</sup> - ... - 10<sup>1</sup>.": 100,
             "How many bird species are there in North America?": 3,
             "How many molecules of ATP are used in an average human in one day?": 26,
             "Compute 2<sup>2<sup>2<sup>2<sup>2</sup></sup></sup></sup>": 19728,
