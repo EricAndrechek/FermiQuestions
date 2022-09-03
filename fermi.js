@@ -163,13 +163,13 @@ function source(source) {
     const author = sources[source]['author'];
     const date = sources[source]['date'];
     return (
-        'Previous <a href="' +
+        '<a href="' +
         link +
-        '" target="_blank">question sourced by ' +
+        '" target="_blank">Previous question</a>' +
+        ' sourced by ' +
         author +
         ' on ' +
-        date +
-        '.</a>'
+        date
     );
 }
 
