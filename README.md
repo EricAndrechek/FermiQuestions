@@ -64,11 +64,14 @@ If you want to be extra helpful, include the changes you are making to the chang
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
 <table>
-  <tr>
-    <td align="center"><a href="https://andrechek.com"><img src="https://avatars.githubusercontent.com/u/35144594?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Eric Andrechek</b></sub></a><br /><a href="https://github.com/EricAndrechek/FermiQuestions/commits?author=EricAndrechek" title="Code">💻</a></td>
-    <td align="center"><a href="https://github.com/IOnlyShoot3s"><img src="https://avatars.githubusercontent.com/u/109195738?v=4?s=100" width="100px;" alt=""/><br /><sub><b>IOnlyShoot3s</b></sub></a><br /><a href="https://github.com/EricAndrechek/FermiQuestions/issues?q=author%3AIOnlyShoot3s" title="Bug reports">🐛</a> <a href="#content-IOnlyShoot3s" title="Content">🖋</a></td>
-    <td align="center"><a href="https://github.com/Haadi-Khan"><img src="https://avatars.githubusercontent.com/u/44217975?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Haadi-Khan</b></sub></a><br /><a href="#ideas-Haadi-Khan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/EricAndrechek/FermiQuestions/issues?q=author%3AHaadi-Khan" title="Bug reports">🐛</a> <a href="#content-Haadi-Khan" title="Content">🖋</a></td>
-  </tr>
+  <tbody>
+    <tr>
+      <td align="center" valign="top" width="14.28%"><a href="https://andrechek.com"><img src="https://avatars.githubusercontent.com/u/35144594?v=4?s=100" width="100px;" alt="Eric Andrechek"/><br /><sub><b>Eric Andrechek</b></sub></a><br /><a href="https://github.com/EricAndrechek/FermiQuestions/commits?author=EricAndrechek" title="Code">💻</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/IOnlyShoot3s"><img src="https://avatars.githubusercontent.com/u/109195738?v=4?s=100" width="100px;" alt="IOnlyShoot3s"/><br /><sub><b>IOnlyShoot3s</b></sub></a><br /><a href="https://github.com/EricAndrechek/FermiQuestions/issues?q=author%3AIOnlyShoot3s" title="Bug reports">🐛</a> <a href="#content-IOnlyShoot3s" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/Haadi-Khan"><img src="https://avatars.githubusercontent.com/u/44217975?v=4?s=100" width="100px;" alt="Haadi-Khan"/><br /><sub><b>Haadi-Khan</b></sub></a><br /><a href="#ideas-Haadi-Khan" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/EricAndrechek/FermiQuestions/issues?q=author%3AHaadi-Khan" title="Bug reports">🐛</a> <a href="#content-Haadi-Khan" title="Content">🖋</a></td>
+      <td align="center" valign="top" width="14.28%"><a href="https://github.com/ahnoah"><img src="https://avatars.githubusercontent.com/u/124746348?v=4?s=100" width="100px;" alt="ahnoah"/><br /><sub><b>ahnoah</b></sub></a><br /><a href="#maintenance-ahnoah" title="Maintenance">🚧</a></td>
+    </tr>
+  </tbody>
 </table>
 
 <!-- markdownlint-restore -->
